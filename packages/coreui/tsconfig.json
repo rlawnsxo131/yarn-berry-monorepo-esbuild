@@ -3,7 +3,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist",
-    // "declarationDir": "./dist",
+    "declarationDir": "./dist",
     "emitDeclarationOnly": true,
     "declaration": true,
     "paths": {
