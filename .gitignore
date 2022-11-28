@@ -11,15 +11,15 @@
 #.pnp.*
 
 # testing
-/coverage
+coverage
 
 # next.js
 .next
 out
 
 # production
-/build
-dist/
+build
+dist
 
 # my
 node_modules/
