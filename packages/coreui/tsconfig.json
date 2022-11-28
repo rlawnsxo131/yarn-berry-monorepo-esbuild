@@ -3,11 +3,11 @@
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist",
-    "declarationDir": "./dist",
     "emitDeclarationOnly": true,
     "declaration": true,
     "paths": {
       "@/components/*": ["components/*"]
     }
-  }
+  },
+  "exclude": ["dist/*", " **/**/*.stories.*"]
 }
