@@ -10,6 +10,17 @@
 !.yarn/cache
 #.pnp.*
 
-node_modules/
+# testing
+/coverage
+
+# next.js
+.next
+out
+
+# production
+/build
 dist/
+
+# my
+node_modules/
 reference/
