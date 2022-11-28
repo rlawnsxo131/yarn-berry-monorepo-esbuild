@@ -16,7 +16,7 @@
     "build-storybook": "build-storybook",
     "build:dts": "tsc --build",
     "build:js": "node ./esbuild.config.js",
-    "build": "yarn build:js & yarn build:dts",
+    "build": "yarn build:js && yarn build:dts",
     "build:dev": "yarn build:js --watch & yarn build:dts --watch"
   },
   "devDependencies": {

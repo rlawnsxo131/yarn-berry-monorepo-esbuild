@@ -4,6 +4,10 @@
   "exclude": ["node_modules"],
   "compilerOptions": {
     "noEmit": true,
-    "types": ["@packages/coreui"]
+    "types": [
+      "@packages/coreui",
+      "@testing-library/jest-dom",
+      "@testing-library/react"
+    ]
   }
 }

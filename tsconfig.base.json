@@ -14,12 +14,4 @@
     "isolatedModules": true,
     "jsx": "preserve"
   }
-  // "references": [
-  //   {
-  //     "path": "packages/coreui"
-  //   },
-  //   {
-  //     "path": "packages/app"
-  //   }
-  // ]
 }

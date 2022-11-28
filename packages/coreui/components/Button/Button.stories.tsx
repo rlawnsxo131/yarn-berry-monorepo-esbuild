@@ -23,8 +23,8 @@ const Template: ComponentStory<typeof Button> = ({ children, ...props }) => (
   <Button {...props}>{children}</Button>
 );
 
-export const preview = Template.bind({});
-preview.args = {
+export const Default = Template.bind({});
+Default.args = {
   children: 'click',
   onClick: () => alert('a'),
 };
