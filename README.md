@@ -1,5 +1,5 @@
 # yarn-berry-monorepo-esbuild
 
 ```
-yarn berry monorepo(workspace) + esbuild + storybook + nextjs example
+yarn berry monorepo(workspace) + esbuild + typescript + storybook(vite) + nextjs example
 ```
