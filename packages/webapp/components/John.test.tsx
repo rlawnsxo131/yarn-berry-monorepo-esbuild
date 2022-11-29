@@ -14,6 +14,6 @@ describe('<John />', () => {
   it('render', () => {
     const { JohnText } = renderJohn();
 
-    expect(JohnText()).toBe;
+    expect(JohnText()).toBeInTheDocument();
   });
 });

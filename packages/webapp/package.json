@@ -15,11 +15,11 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@types/jest": "^29.2.3",
-    "@types/node": "18.11.9",
-    "@types/react": "18.0.25",
+    "@types/node": "^18.11.9",
+    "@types/react": "^18.0.25",
     "@types/testing-library__jest-dom": "^5.14.5",
     "jest-environment-jsdom": "^29.3.1",
     "next-transpile-modules": "^10.0.0",
-    "typescript": "4.8.4"
+    "typescript": "^4.9.3"
   }
 }
