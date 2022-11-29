@@ -12,6 +12,7 @@ const commonConfig = {
   outdir: 'dist',
   target: 'es2015',
   bundle: true,
+  tsconfig: 'tsconfig.build.json',
   external: ['react', ...external],
   sourcemap: true,
 };
