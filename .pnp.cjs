@@ -39,7 +39,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@types/jest", "npm:29.2.3"],\
-            ["@types/node", "npm:18.11.9"],\
             ["@typescript-eslint/eslint-plugin", "virtual:4a42f2fe8af5ad4c7da04127ddffaabf3491cca856fe88321e0ef43b5ced6aaa726a0a4b8d88a884091e5a786395a135c9fb56e23d163c696e19855fc9f4b0c9#npm:5.44.0"],\
             ["@typescript-eslint/parser", "virtual:4a42f2fe8af5ad4c7da04127ddffaabf3491cca856fe88321e0ef43b5ced6aaa726a0a4b8d88a884091e5a786395a135c9fb56e23d163c696e19855fc9f4b0c9#npm:5.44.0"],\
             ["eslint", "npm:8.28.0"],\
@@ -22740,7 +22739,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["yarn-berry-monorepo-esbuild", "workspace:."],\
             ["@types/jest", "npm:29.2.3"],\
-            ["@types/node", "npm:18.11.9"],\
             ["@typescript-eslint/eslint-plugin", "virtual:4a42f2fe8af5ad4c7da04127ddffaabf3491cca856fe88321e0ef43b5ced6aaa726a0a4b8d88a884091e5a786395a135c9fb56e23d163c696e19855fc9f4b0c9#npm:5.44.0"],\
             ["@typescript-eslint/parser", "virtual:4a42f2fe8af5ad4c7da04127ddffaabf3491cca856fe88321e0ef43b5ced6aaa726a0a4b8d88a884091e5a786395a135c9fb56e23d163c696e19855fc9f4b0c9#npm:5.44.0"],\
             ["eslint", "npm:8.28.0"],\
