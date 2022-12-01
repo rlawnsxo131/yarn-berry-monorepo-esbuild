@@ -14,7 +14,7 @@
   "scripts": {
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "build:dts": "tsc --build --verbose --version tsconfig.build.json",
+    "build:dts": "tsc --build tsconfig.build.json",
     "build:js": "node ./esbuild.config.js",
     "build": "yarn build:dts && yarn build:js",
     "build:dev": "yarn build:js --watch & yarn build:dts --watch"
