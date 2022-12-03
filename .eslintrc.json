@@ -7,11 +7,6 @@
     "jest": true
   },
   "parser": "@typescript-eslint/parser",
-  "settings": {
-    "import/parsers": {
-      "@typescript-eslint/parser": [".ts", ".tsx"]
-    }
-  },
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
@@ -21,7 +16,12 @@
     "plugin:import/recommended"
   ],
   "plugins": ["@typescript-eslint", "prettier", "simple-import-sort", "import"],
-  "ignorePatterns": ["esbuild.config.js"],
+  "settings": {
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".tsx"]
+    }
+  },
+  "ignorePatterns": ["esbuild.config.js", "jest.config.js"],
   "rules": {
     "prefer-const": "error",
     "@typescript-eslint/no-unused-vars": "off",
@@ -32,6 +32,7 @@
     "import/first": "error",
     "import/newline-after-import": "error",
     "import/no-duplicates": "error",
+    "import/no-unresolved": "off",
     "no-useless-catch": "warn",
     "no-control-regex": "warn"
   }

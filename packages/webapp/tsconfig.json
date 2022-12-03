@@ -3,7 +3,11 @@
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"],
   "compilerOptions": {
+    "baseUrl": "./",
     "noEmit": true,
+    "paths": {
+      "@/components/*": ["components/*"]
+    },
     "types": [
       "@packages/coreui",
       "@testing-library/jest-dom",

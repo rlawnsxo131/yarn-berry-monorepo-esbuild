@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react';
 
-import John from './John';
+import John from '../John';
 
 function renderJohn() {
   const result = render(<John />);
