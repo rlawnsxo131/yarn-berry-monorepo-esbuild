@@ -2,9 +2,9 @@
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "baseUrl": "./",
-    "outDir": "./dist",
     "emitDeclarationOnly": true,
-    "declaration": true
+    "declaration": true,
+    "jsx": "preserve"
   },
   "exclude": ["dist/*"]
 }

@@ -11,7 +11,15 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "preserve"
-  }
+    "isolatedModules": true
+  },
+  // 아래 옵션을 켠 파일의 tsconfig 에는 composit: true 가 필요하다.
+  "references": [
+    {
+      "path": "./packages/coreui"
+    },
+    {
+      "path": "./packages/webapp"
+    }
+  ]
 }
