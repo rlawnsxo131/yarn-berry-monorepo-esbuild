@@ -36,9 +36,3 @@
 
 - react vs react_product 차이
   https://stackoverflow.com/questions/71074658/whats-the-difference-react-vs-react-project-vs-webpack-react-for-storybook
-
-참고
-https://techblog.woowahan.com/7976/
-https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#wrong-webpack-version
-
-next.js 사전 트랜스 파일링 https://minemanemo.tistory.com/168
