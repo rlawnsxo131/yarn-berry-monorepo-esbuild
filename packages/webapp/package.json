@@ -6,7 +6,8 @@
     "test": "jest --coverage"
   },
   "dependencies": {
-    "@packages/coreui": "workspace:packages/coreui",
+    "//": "'@packages/coreui: workspace:packages/coreui' is also possible.",
+    "@packages/coreui": "0.0.0",
     "next": "^13.0.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
