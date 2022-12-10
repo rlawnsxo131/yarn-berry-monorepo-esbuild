@@ -2480,7 +2480,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@packages/coreui@0.0.0, @packages/coreui@workspace:packages/coreui":
+"@packages/coreui@workspace:0.0.0, @packages/coreui@workspace:packages/coreui":
   version: 0.0.0-use.local
   resolution: "@packages/coreui@workspace:packages/coreui"
   dependencies:
@@ -2518,7 +2518,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@packages/webapp@workspace:packages/webapp"
   dependencies:
-    "@packages/coreui": 0.0.0
+    "@packages/coreui": "workspace:0.0.0"
     "@testing-library/jest-dom": ^5.16.5
     "@testing-library/react": ^13.4.0
     "@types/jest": ^29.2.3
