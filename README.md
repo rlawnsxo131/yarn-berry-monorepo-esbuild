@@ -1,7 +1,7 @@
 # yarn-berry-monorepo-esbuild
 
 ```
-yarn berry monorepo example
+yarn berry workspace + storybook(vite) + next.js + esbuild example
 ```
 
 ### Tech Stack
