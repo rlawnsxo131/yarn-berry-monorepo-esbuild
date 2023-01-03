@@ -8,7 +8,7 @@
   },
   "parser": "@typescript-eslint/parser",
   "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
-  "plugins": ["@typescript-eslint", "simple-import-sort"],
+  "plugins": ["@typescript-eslint", "react-hooks", "simple-import-sort"],
   "settings": {
     "import/parsers": {
       "@typescript-eslint/parser": [".ts", ".tsx"]
@@ -29,6 +29,8 @@
         "disallowTypeAnnotations": false
       }
     ],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
     "import/no-unresolved": "off",
     "no-useless-catch": "warn",
     "no-control-regex": "warn"
